@@ -1,0 +1,17 @@
+.login-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(#131313, #292929, #131313);
+    box-sizing: border-box;
+    padding: 20px;
+    width: 100%;
+}
+
+.app-title {
+    font-size: 56px;
+}
+
+.login-panel > * {
+    margin: 15px 0;
+}

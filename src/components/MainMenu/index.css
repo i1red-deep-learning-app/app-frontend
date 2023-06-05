@@ -1,0 +1,30 @@
+.main-menu {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    padding: 10px;
+    align-self: stretch;
+}
+
+.menu-column {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.menu-row {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.block-title {
+    font-size: 22px;
+}
+
+.block {
+    background-color: #262626;
+    padding: 20px;
+    margin: 10px;
+    box-sizing: border-box;
+}
